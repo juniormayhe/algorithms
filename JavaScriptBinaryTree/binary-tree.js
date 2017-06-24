@@ -11,7 +11,7 @@ var descendingValues = [];
 
 function insert(tree, value){
 
-	//tree is empty?
+	//tree has value?
 	if (tree && tree.value)
 	{
 		//if value is smaller than current tree value
