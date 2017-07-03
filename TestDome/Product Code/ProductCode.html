@@ -1,0 +1,52 @@
+<!--Product Code
+
+Tags
+JQUERY EVENT HANDLING FORMS JAVASCRIPT SELECTORS PUBLIC
+Difficulty
+Easy  
+Expected time
+15min Author
+Anonymous
+The createProductCodeForm function is used to create a new form that accepts a product code from a user.
+
+The current version of the form contains the hint: 'The product code can be found on the label'. This hint is currently always visible to the user.
+
+Improve the form so that the hint is only rendered when the input element is the focused element.
+-->
+
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+function createProductCodeForm(parent) {
+  var form = $("<form/>");
+
+  form.append($("<label>").text('Product Code:'));
+  form.append($("<input>").attr('name', 'productCode').attr('type', 'text'));
+  form.append($("<label>").attr('name', 'hint').text('The product code can be found on the label.'));
+
+  form.append('<br>');
+
+  form.append($("<input>").attr('type', 'submit'));
+
+  parent.append(form);
+  $("label[name=hint]").hide();
+  $("input[name=productCode]").focus(function(){
+		$("label[name=hint]").show();
+	}).blur(function(){
+		$("label[name=hint]").hide();
+	});
+}
+
+$(document).ready(function(){
+
+	createProductCodeForm($("body"));
+	
+});
+</script>
+</head>
+<body>
+	
+	
+</body>
+</html>

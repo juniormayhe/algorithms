@@ -1,0 +1,35 @@
+Workers
+
+Tags
+SQL SUBQUERIES PUBLIC
+Difficulty
+Hard  
+Expected time
+3min Author
+Mario Živić
+Given the following data definition, select all queries that return a list of employees who are not managers.
+
+TABLE emp
+  id INTEGER NOT NULL PRIMARY KEY
+  mgrId INTEGER REFERENCES emp (id)
+  name VARCHAR(30) NOT NULL
+
+
+	SELECT e.name FROM emp e
+	WHERE e.id NOT IN (
+	SELECT DISTINCT m.mgrId FROM emp m)
+	
+	
+x	SELECT e.name FROM emp e
+	WHERE e.id NOT IN (
+	SELECT DISTINCT m.mgrId FROM emp m WHERE m.mgrId IS NOT NULL)
+	
+	
+	SELECT e.name FROM emp e
+	WHERE e.id NOT IN (
+	SELECT m.mgrId FROM emp m)
+	
+	
+x	SELECT e.name FROM emp e
+	WHERE e.id NOT IN (
+	SELECT m.mgrId FROM emp m WHERE m.mgrId IS NOT NULL)

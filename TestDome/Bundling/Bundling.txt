@@ -1,0 +1,16 @@
+Bundling
+ 
+
+ASP.NET WEB FORMS OPTIMIZATIONS PUBLIC
+Difficulty
+Hard  
+Expected time
+2min Author
+Josip Kremenić
+Which of these statements are true for bundling in ASP.NET Web Forms?
+
+x 	By default, bundling is disabled in debug mode.
+	A link produced by <webopt:bundlereference runat="server" path="~/Content/css" /> will be constant through the project lifetime.
+x	There are different classes for minifying JavaScript and for minifying CSS.
+	Bundling will set Cache-Control to no-cache.
+x 	Bundle.Include(virtualPath) method can accept some forms of wildcard (*) syntax.

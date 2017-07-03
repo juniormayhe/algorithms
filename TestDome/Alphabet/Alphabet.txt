@@ -1,0 +1,39 @@
+Alphabet
+
+Tags
+ASP.NET MVC RAZOR PUBLIC
+Difficulty
+Easy  
+Expected time
+2min Author
+Josip Kremenić
+Select the code snippets that are valid in the Razor view engine, and when used, generate a paragraph containing the string: "ABCDEFGHIJKLMNOPQRSTUVWXYZ".
+
+x	<p>
+	   @for (char letter = 'A'; letter <= 'Z'; letter++)
+	   {<text>@letter</text>}
+	</p>
+	
+	
+	<p>
+	   @for (char letter = 'A'; letter <= 'Z'; letter++)
+	   {
+		   document.write(letter);
+	   }
+	</p>
+
+	
+x	@{
+	   StringBuilder sb = new StringBuilder();
+	   for (char letter = 'A'; letter <= 'Z'; letter++)
+	   {
+		   sb.Append(letter);
+	   }
+	}
+	
+	
+	<p>@sb.ToString()</p>
+	<p>
+	   @for (char letter = 'A'; letter <= 'Z'; letter++)
+	   {<span>letter</span>}
+	</p>

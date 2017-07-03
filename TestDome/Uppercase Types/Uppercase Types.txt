@@ -1,0 +1,26 @@
+Uppercase Types
+
+The following code initializes strings as three different types and attempts to make them uppercase. Which statements about the behavior of the typescript compiler are correct?
+
+let stringType: string = "string type";
+stringType.toUpperCase();
+
+let anyType: any = "any type";
+anyType.toUpper();
+anyType.toUpperCase();
+
+let objectType: Object = "object type";
+objectType.toUpperCase();
+
+
+x	The typescript compiler confirms that toUpperCase exists on the stringType instance.
+
+	The typescript compiler states that toUpper does not exist on the anyType instance;
+
+	The typescript compiler confirms that toUpperCase exists on the anyType instance.
+
+x	The typescript compiler does not check if toUpperCase or toUpper exist on the anyType instance.
+
+x	The typescript compiler states that the toUpperCase function does not exist on the objectType instance.
+
+	The typescript compiler confirms that the toUpperCase function exists on the objectType instance.

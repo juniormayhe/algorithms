@@ -1,0 +1,26 @@
+Pets
+
+Tags
+SQL JOINS PUBLIC
+Difficulty
+Hard  
+Expected time
+3min Author
+Lucija Frković
+Information about pets is kept in two separate tables:
+
+TABLE dogs
+  id INTEGER PRIMARY KEY,
+  name VARCHAR(50) NOT NULL
+
+TABLE cats
+  id INTEGER PRIMARY KEY,
+  name VARCHAR(50) NOT NULL
+  
+Identify all the queries that select all distinct pet names.
+
+	SELECT DISTINCT name FROM dogs, cats;
+x	SELECT DISTINCT name FROM dogs UNION SELECT DISTINCT name FROM cats;
+	SELECT DISTINCT name FROM dogs UNION ALL SELECT DISTINCT name FROM cats;
+x	SELECT name FROM dogs UNION SELECT name FROM cats;
+	SELECT name FROM dogs UNION ALL SELECT name FROM cats;

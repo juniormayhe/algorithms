@@ -1,0 +1,35 @@
+Tooltip
+Tags
+Bootstrap Plugins Public
+Difficulty
+Easy  
+Expected time
+2min
+Author
+Josip Kremenić
+
+Select the code snippets that, besides referencing bootstrap.css and bootstrap.js, are required to produce the following effect:
+
+x	<script src="jquery.js"></script>
+
+	
+	<script>
+	 var a = document.getElementsByTagName("a");
+	 for (var i = 0; i < a.length; i++) {
+	   a[i].className += " tooltip-right";
+	 }
+	</script>
+
+
+x	<script>
+	 $(document).ready(function () {
+	   $('[data-toggle="tooltip"]').tooltip();
+	 });
+	</script>
+
+	
+	<a href="#" data-tooltip="Nice!" data-position="right">Hover over me!</a>
+
+
+
+x	<a href="#" data-toggle="tooltip" data-placement="right" title="Nice!">Hover over me!</a>

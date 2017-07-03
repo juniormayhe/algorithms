@@ -1,0 +1,36 @@
+<!--Advanced Form
+
+Tags
+HTML/CSS HTML5 PUBLIC
+Difficulty
+Hard  
+Expected time
+7min Author
+Josip Kremenić
+With the new HTML5 features, modify the form so that:
+
+The formula input field has an autocomplete option with the following options: "sin", "cos", "tan" and "cot".
+The iterations input field is a slider with possible values from 1 to 10.
+The precision input field is a number picker with possible values from 1 to 100, where 50 is the default value.-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Advanced form</title>
+</head>
+<body>
+  <form>
+    Formula: <input name="formula" autocomplete="on" list="formulas">
+    <datalist id="formulas">
+      <option value="sin"/>
+      <option value="cos"/>
+      <option value="tan"/>
+      <option value="cot"/>
+    </datalist><br />
+    Iterations: <input type="range" min="1" max="10" name="iterations"><br />
+    Precision: <input type="number" min="1" max="100" value="50" name="precision"><br />
+  </form>
+</body>
+</html>

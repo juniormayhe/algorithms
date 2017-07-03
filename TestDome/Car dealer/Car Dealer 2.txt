@@ -1,0 +1,26 @@
+CarDealer2
+Tags
+Numerical reasoning Chart lookup advanced Public
+Difficulty
+Hard  
+Expected time
+5min
+Author
+Josip Kremenić
+
+The charts below show the number of cars John sold last year and the profit per car he made.
+
+In which quarter did John make the largest average profit per car?
+	Q1
+	
+x	Q2
+	
+	Q3
+	
+	Q4
+	
+	
+	Q1 = 6 x $1000 + 2 x2000 + 2 x $4000	= 6000 + 4000 + 8000 = 18000/3 = 6000
+x	Q2 = 6 x $1000 + 4 x $4000 				= 6000 + 16000 = 22000 / 2 = 11.000
+	Q3 = 8 x $1000 + 2 x $2000 + 4 x $4000	= 8000 + 4000 + 16000 = 28000 = 9.333
+	Q4 = 6 x $1000 + 2 x $2000 + 4 x $4000 = 6000 + 4000 + 16000 = 26000 = 8.666

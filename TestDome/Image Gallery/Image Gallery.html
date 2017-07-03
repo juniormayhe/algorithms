@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Image gallery</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+function registerClickHandler() {
+	$(".remove").click(function(){
+		$(this).parent().remove();
+	});
+}
+
+$(document).ready(function(){
+	registerClickHandler();
+});
+	</script>
+  </head>
+  <body>
+    <div class="image">
+	  <img src="http://www.google.es/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="First">
+	  <button class="remove">X</button>
+	</div>
+	<div class="image">
+	  <img src="http://www.google.es/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Second">
+	  <button class="remove">X</button>
+	</div>
+  </body>
+</html>

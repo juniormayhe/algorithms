@@ -1,0 +1,33 @@
+Age
+Tags
+Numerical reasoning Linear systems Public
+Difficulty
+Easy  
+Expected time
+3min
+Author
+Mario Živić
+
+How old is John if, in 38 years, he will be 3 times as old as he is today?
+
+38/3
+36  12,6
+----
+020
+ 18
+ 02 
+
+	13
+	
+	17 + 38 anos = 55 /3 = 18.33 
+	
+x	19 + 38 anos = 57 / 3 = 19
+	
+	21
+	
+	24
+	
+	38
+	
+	
+	

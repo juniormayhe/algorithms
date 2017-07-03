@@ -1,0 +1,31 @@
+Tires
+Tags
+Numerical reasoning Table lookup Public
+Difficulty
+Easy  
+Expected time
+3min
+Author
+Josip Kremenić
+
+If a tire scores less than 5 in any category, it fails the test. Which tire that passes the test has the highest average score?
+
+			Conditions
+			Dry 	Wet 	Snow
+Desert 		10 		4 		1  
+Ocean 		6 		8 		6  
+Rainforest 	6 		10 		6  
+Glacier 	4 		9 		10 
+Prairie 	7 		7 		7  
+----------------------------------------
+			6.6     7.6     6
+
+	Desert
+	
+	Ocean
+	
+x	Rainforest
+	
+	Glacier
+	
+	Prairie

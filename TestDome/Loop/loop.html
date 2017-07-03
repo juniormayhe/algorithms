@@ -1,0 +1,55 @@
+<!--Loop
+
+Tags
+JAVASCRIPT BUG FIXING DOM MANIPULATION PUBLIC
+Difficulty
+Hard  
+Expected time
+15min Author
+Mario Živić
+Function appendChildren should add a new child div to each existing div. New divs should be decorated by calling decorateDiv.
+
+For example, after appendChildren is executed, the following divs:
+
+<div id="a">
+    <div id="b">
+    </div>
+  </div>
+should take the following form (assuming decorateDiv does nothing):
+
+  <div id="a">
+    <div id="b">
+      <div></div>
+    </div>
+    <div></div>
+  </div>
+  The code below should do the job, but for some reason it goes into an infinite loop. Fix the bugs.
+-->
+<html>
+<head>
+<script>
+function appendChildren() {
+  var allDivs = document.getElementsByTagName("div");
+  var tam = allDivs.length;
+  for (var i = 0; i < tam; i++) {
+	
+	var newDiv = document.createElement("div");
+	decorateDiv(newDiv);
+	allDivs[i].appendChild(newDiv);
+	
+  }
+}
+// Mock of decorateDiv function for testing purposes
+function decorateDiv(div) {}
+
+</script>
+<body>
+	<div id="a">
+		<div id="b">
+		</div>
+	</div>
+	
+</body>
+</html>
+<script>
+appendChildren();</script>

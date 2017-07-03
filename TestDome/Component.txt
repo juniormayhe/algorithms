@@ -1,0 +1,23 @@
+Component
+Tags
+Angular Components Public
+Difficulty
+Easy  
+Expected time
+2min
+Author
+Anonymous
+
+Which of the following statements about components in Angular are correct?
+
+	The properties of a component's children are available in the component's constructor.
+
+x	A component that depends on a service can allow configuration of dependency injection.
+
+x	A component defines its input parameters with the @Input decorator.
+
+	A component is a type of directive and as such, should be defined by the Directive class decorator.
+
+	A component selector must reference the class name in lowercase hyphenated format.
+
+x	A components ngOnDestroy method is called just before Angular destroys the component.

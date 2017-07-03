@@ -1,0 +1,19 @@
+
+John ate half of the apples he had. After that he gave 2 apples to his sister Mary, which left him with only 3 apples.
+
+How many apples did John have before all that?
+	5
+	6
+	7
+	8
+	9
+x	10
+
+
+
+before all that o o o o o o o o o o
+before john o o o o o
+john o o o 
+mary o o 
+
+

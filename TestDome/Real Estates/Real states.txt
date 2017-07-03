@@ -1,0 +1,38 @@
+Real Estates
+Tags
+Numerical reasoning Chart lookup Public
+Difficulty
+Easy  
+Expected time
+3min
+Author
+Josip Kremenić
+
+The chart below shows how many properties an employee sold last month:
+
+What was the total number of properties sold last month?
+
+	23
+	
+	21
+	
+x	19
+	
+	17
+	
+	16
+	
+	15
+	
+	
+	
+John 4
+Odin 4
+Alf 1
+Hall 3
+Mae 3
+Natan 0
+Wendi 2
+Abi 2
+--------
+19

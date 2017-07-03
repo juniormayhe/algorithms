@@ -1,0 +1,31 @@
+WebShop
+
+Tags
+SQL JOINS PUBLIC
+Difficulty
+Easy  
+Expected time
+7min Author
+Vjekoslav Giacometti
+Each item in a web shop belongs to a different seller. To ensure service quality, each seller has a rating.
+
+The data are kept in the following two tables:
+
+TABLE sellers
+  id INTEGER PRIMARY KEY,
+  name VARCHAR(30) NOT NULL,
+  rating INTEGER NOT NULL
+
+TABLE items
+  id INTEGER PRIMARY KEY,
+  name VARCHAR(30) NOT NULL,
+  sellerId INTEGER REFERENCES sellers(id)
+Write a query that selects the item name and the name of its seller for each item that belongs to a seller with a rating of more than 4.
+
+
+-- Write only the SQL statement that solves the problem and nothing else.
+select 
+i.name, s.name
+from sellers s 
+inner join items i on i.sellerId = s.id
+where rating>4

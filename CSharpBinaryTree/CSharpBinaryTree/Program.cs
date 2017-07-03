@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -47,9 +48,9 @@ namespace CSharpBinaryTree
 
         static void Main(string[] args)
         {
-            int[] values = { 5, 10, 12, 3, 4, 1 };
-            node = new Node();
 
+            int[] values = { 5, 10, 12, 3, 4, 1 };
+            
             foreach (int v in values)
             {
                 insert(node, v);

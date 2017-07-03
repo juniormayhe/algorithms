@@ -1,0 +1,21 @@
+Integer
+Tags
+.NET Class library Public
+Difficulty
+Easy  
+Expected time
+1min
+Author
+Josip Kremenić
+
+Which statements are true for an int/Integer built in .NET data type?
+
+x	It supports bitwise operators.
+	
+	On a 64bit system, it can contain the number 2^48.
+	
+x	The ToString method can be used for formatting a numerical value.
+	
+	The expression a/b will return infinity if a has value 1 and b has value 0.
+	
+	It is unsigned by default and does not support negative values.

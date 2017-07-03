@@ -1,0 +1,25 @@
+Inheritance
+Tags
+.NET Language features Public
+Difficulty
+Easy  
+Expected time
+2min
+Author
+Josip Kremenić
+
+A class inherits a base class and it overrides a method from that base class.
+
+Select all possible forms of the base class and its method:
+
+	The base class can be sealed/NotInheritable.
+
+x	The base class can be abstract/MustInherit.
+
+x	The method from the base class can be abstract/MustOverride.
+
+x	The method from the base class can be virtual/Overridable.
+
+	The method from the base class does not need to have any modifier.
+
+	The method from the base class can have only a protected modifier.

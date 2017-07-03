@@ -1,0 +1,30 @@
+Car Dealer
+Tags
+Numerical reasoning Chart lookup Public
+Difficulty
+Easy  
+Expected time
+5min
+Author
+Josip Kremenić
+
+The charts below show the number of cars John sold last year and the profit per car he made.
+
+How much did John earn last year?
+
+	< $92,500
+
+x	$92,500 - $94,999
+
+	$95,000 - $97,499
+
+	$97,500 - $99,999
+
+	> $99,999
+	
+	coupes = 6+6+8+6 = 26 x $ 1000	= $26.000
+	convertibles=2+2+2 = 6 x $2000 	= $12.000
+	suv= 2+4+4+4 = 14 x $ 4000 		= $28.000
+	------------------------------------------
+									$ 66.000????
+	

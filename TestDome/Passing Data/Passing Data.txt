@@ -1,0 +1,19 @@
+Passing Data
+
+Tags
+ASP.NET MVC MVC PATTERN PUBLIC
+Difficulty
+Easy  
+Expected time
+2min Author
+Josip Kremenić
+Select the ways of passing data from the controller to the view:
+
+x	By setting properties on the model that is passed to the view.
+	By setting properties on the web controls that the view contains.
+	By calling the helper method that the view contains.
+x	By setting properties on the ViewBag dynamic object.
+x	By adding items to the TempData dictionary.
+
+	
+Your score is 100%, perfect!

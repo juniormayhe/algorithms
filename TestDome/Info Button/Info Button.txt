@@ -1,0 +1,24 @@
+Info Button
+Tags
+Bootstrap Styling Public
+Difficulty
+Easy  
+Expected time
+2min
+Author
+Josip Kremenić
+
+The following element is based on Bootstrap:
+
+Select all HTML markups that would result in this element.
+	
+	
+x	<a href="#" class="btn btn-info">Info</a>
+
+	<button type="button" class="btn btn-blue">Info</button>
+
+	<button type="button" class="btn blue">Info</button>
+
+x	<button type="button" class="btn btn-info">Info</button>
+
+	<button type="button" class="blue button">Info</button>

@@ -1,0 +1,24 @@
+Panel
+Tags
+Bootstrap Styling Public
+Difficulty
+Easy  
+Expected time
+2min
+Author
+Anonymous
+
+A div element, as shown in the image below, is decorated as a bootstrap panel. If the text within the panel header is clicked, it expands to show the body and footer. Which of the following statements is true?
+
+	
+	The panel must be within a container that is decorated with the .panel-group class.
+
+	The .panel-title and .panel-heading classes are functionally equivalent.
+
+x	Both the href and data-target attributes are valid when used on a link element to specify which elements are collapsible.
+
+x	The header contains a link with the data-toggle="collapse" attribute.
+
+x	The body and footer are wrapped in a container tag which is decorated with the ".collapse" class.
+
+	The body and footer must contain a link with a data-toggle="collapse" attribute.
