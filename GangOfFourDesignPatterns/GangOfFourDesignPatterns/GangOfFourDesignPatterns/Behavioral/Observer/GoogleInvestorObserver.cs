@@ -27,6 +27,7 @@ namespace GangOfFourDesignPatterns.Behavioral.Observer
         {
             double stockPrice = _stock.GetStockPrice();
             Console.WriteLine($"   updated stock price: {stockPrice}, investor {_investorName}");
+
         }
     }
 }
