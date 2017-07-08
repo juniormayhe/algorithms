@@ -13,19 +13,19 @@ namespace GangOfFourDesignPatterns.Behavioral.Observer
     class GoogleInvestorObserver : IObserver
     {
         //subject to observe
-        private Stock _googleStock;
+        private Stock _stock;
         private string _investorName;
 
         //pass concrete class that should be observed
-        public GoogleInvestorObserver(Stock g, string investorName)
+        public GoogleInvestorObserver(Stock stock, string investorName)
         {
-            _googleStock = g;
+            _stock = stock;
             _investorName = investorName;
         }
 
         public void Update()
         {
-            double stockPrice = _googleStock.GetStockPrice();
+            double stockPrice = _stock.GetStockPrice();
             Console.WriteLine($"   updated stock price: {stockPrice}, investor {_investorName}");
         }
     }
