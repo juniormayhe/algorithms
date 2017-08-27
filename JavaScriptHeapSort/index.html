@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>JavaScript program of Heap sort</title>
+  <script src="heapsort.js"></script>
+  <script>
+  const sort = () => {
+	const numbers = document.getElementById('numbers').value;
+	//you cannot use numbers.split(',') because it will return an array of strings
+	const arr = JSON.parse('[' + numbers + ']');
+	const result = heapSort(arr);
+	
+	document.getElementById('result').innerText = result;
+  }
+  </script>
+  </head>
+  <body>
+  <input type="text" id="numbers" value="10,3,5,-2,9,7">
+  <button onClick="sort()">Heap sort</button>
+  Result: <span id="result"></span>
+  </body>
+</html>
