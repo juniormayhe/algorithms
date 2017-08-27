@@ -3,6 +3,7 @@ var node = {
 	right: undefined,
 	value:null
 }
+
 var inOrderValues = [];
 var preOrderValues = [];
 var postOrderValues = [];
@@ -80,8 +81,6 @@ function printPostOrder(root){
 	postOrderValues.push(root.value);
 }
 
-
-
 function run(){
 	console.log("Running");
 	
@@ -127,9 +126,9 @@ function run(){
 	document.getElementById("inOrder").innerText = JSON.stringify(inOrderValues);
 	document.getElementById("descending").innerText = JSON.stringify(descendingValues);
 
-
  	node = {
 		left: undefined,
 		right: undefined,
-		value:null}
+		value: null
+	}
 }
